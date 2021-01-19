@@ -99,7 +99,7 @@ installStuff () {
 
   if [[ ${platform} == "mac" ]]; then
     printf "\033[1;32m-- Install Homebrew\033[0m\n"
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     
     printf "\033[1;32m-- Install zsh\033[0m\n"
     brew install -f zsh
