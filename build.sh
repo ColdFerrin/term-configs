@@ -92,7 +92,7 @@ setGitConfig () {
 installStuff () {
   platform=$1
 
-  printf "\033[1;32m-- install necissary tools\033[0m\n"
+  printf "\033[1;32m-- install necessary tools\033[0m\n"
 
   printf "\033[1;32m-- Hush login message\033[0m\n"
   touch ~/.hushlogin
